@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module-project-persistance/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module-project-service/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module-project-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module-project-transverse/pom.xml" />
       </list>
     </option>
   </component>

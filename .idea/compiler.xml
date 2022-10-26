@@ -6,8 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="multi-module-project-service" />
+        <module name="multi-module-project-controller" />
+        <module name="multi-module-project-transverse" />
+        <module name="multi-module-project-persistance" />
         <module name="multi-module-project" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="multi-module-project-controller" options="-parameters" />
+      <module name="multi-module-project-persistance" options="-parameters" />
+      <module name="multi-module-project-service" options="-parameters" />
+      <module name="multi-module-project-transverse" options="-parameters" />
+    </option>
   </component>
 </project>
